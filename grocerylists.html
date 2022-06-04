@@ -1,16 +1,18 @@
 <!--&copy; P1@raspberrypi-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <title>Grocery Lists | Home</title>
-<link rel="style.css">
+<link rel="stylesheet" href="style.css">
 <body>
 <link rel="icon" href="favicon.ico">
-<a> 305 Lines of Code!</a>
 <h1>Grocery Lists</h1>  
 <h2>Welcome </h2>
-<p style='cursor:text; background-color: #F8B348; color:  #FF5F00;'>"Section" creates a new section from your text in the text box. "Add" creates a new item in your list. You can have infinite items in a list. Click an item to check it. Type a number or use the &#x2193;/&#x2191; buttons to change quantity. Click and drag an item or section to sort.</p>
+<p style='cursor:text; background-color: #DCD6CD; color: #545454'>"Section" creates a new section from your text in the text box. "Add" creates a new item in your list. You can have infinite items in a list. Click an item to check it. Type a number or use the &#x2193;/&#x2191; buttons to change quantity. Click and drag an item or section to sort.</p>
 <a>Click an item to check it.</a>
-<p style="background:#F8B348; cursor: text;"></p>
-<p style="background:#F8B348; cursor: text;"></p>
+<p style="cursor: text; background-color: #DCD6CD;"></p>
+<p style="cursor: text; background-color: #DCD6CD;"></p>
+<p id="del">Click Here to Enter Delete Mode</p>
+<p style="cursor: text; background-color: #DCD6CD;"></p>
+<p style="cursor: text; background-color: #DCD6CD;"></p>
 <input id="user_input">
 <input id="quantity" type="number">
 <input type="button" id="add" value="Add">
@@ -21,36 +23,9 @@
 </ul>
 </form>
 <script>
-document.getElementById("add").onclick  = function() {
-     var node = document.createElement("Li");
-    var text =  document.getElementById("user_input").value;
-     var text2 =document.getElementById("quantity").value;
-    var alltext = text2 + " | " + text;
-    var textnode=document.createTextNode(alltext);
-    node.appendChild(textnode);
-    document.getElementById("list").appendChild(node);
-}
-var list = document.querySelector('ul');
-list.addEventListener('click', function(ev) {
-  if (ev.target.tagName === 'LI') {
-     ev.target.classList.toggle('done');
-  }
-}, false);
-document.getElementById("section").onclick  = function() {
-    var node = document.createElement("p");
-    var text = document.getElementById("user_input").value; 
-    var textnode=document.createTextNode(text);
-    node.appendChild(textnode);
-    document.getElementById("list").appendChild(node);
-}
 </script>
 
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-  $( function drag() {
-    $( "#list" ).sortable();
-    $( "#list" ).disableSelection();
-  } );
-  </script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="script.js"></script>
 </body>

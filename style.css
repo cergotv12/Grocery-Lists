@@ -53,15 +53,16 @@ li {
   position: relative;
   margin: 1px;
   padding: 0.5em 0.5em 0.5em 2em;
-  background: #FF1300;
+  background: #AC726E;
   font-family: Raleway;
   cursor: row-resize;
   overflow: hidden;
-  color: #FFFFFF;
+  color: #E2DBD1;
   white-space: nowrap;
 }
 li.done {
   background: #51BA64;
+  color: #6B6B6B;
   text-decoration: line-through;
   overflow: hidden;
 }
@@ -75,6 +76,10 @@ p {
   overflow: hidden;
   color: #FFFFFF;
 }
+p#del {
+  background: #AC726E;
+  cursor: pointer;
+}
 footer {
   bottom: 0;
   left: 0;
@@ -85,7 +90,7 @@ footer {
   text-align: center;
 }
 ::selection {
-  background-color: #FFC694;
+  background-color: #585858;
   border-radius: 25px;
   color: #FFFFFF;
 }
