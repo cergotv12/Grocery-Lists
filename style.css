@@ -1,0 +1,91 @@
+.time {
+  background-color: #F8B348;
+  color: #FF5F00;
+  padding: 5px 5px 5px 5px;
+  border-radius: 25px;
+  text-align: center;
+}
+.demoHeaders {
+  margin-top: 2em;
+}
+#dialog-link {
+  padding: .4em 1em .4em 20px;
+  text-decoration: none;
+  position: relative;
+}
+#dialog-link span.ui-icon {
+  margin: 0 5px 0 0;
+  position: absolute;
+  left: .2em;
+  top: 50%;
+  margin-top: -8px;
+}
+#icons {
+  margin: 0;
+  padding: 0;
+}
+#icons li {
+  margin: 2px;
+  position: relative;
+  padding: 4px 0;
+  cursor: pointer;
+  float: left;
+  list-style: none;
+}
+#icons span.ui-icon {
+  float: left;
+  margin: 0 4px;
+}
+.fakewindowcontain .ui-widget-overlay {
+  position: absolute;
+}
+select {
+  width: 200px;
+}
+body {
+  font-family: Raleway;
+  background-color: #DCD6CD;
+  color: #606060;
+  cursor: url('cursor.cur');
+}
+li {
+  list-style-type: none;
+  position: relative;
+  margin: 1px;
+  padding: 0.5em 0.5em 0.5em 2em;
+  background: #FF1300;
+  font-family: Raleway;
+  cursor: row-resize;
+  overflow: hidden;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+li.done {
+  background: #51BA64;
+  text-decoration: line-through;
+  overflow: hidden;
+}
+p {
+  position: relative;
+  margin: 1px;
+  padding: 0.5em 0.5em 0.5em 2em;
+  background: #A2A2A2;
+  font-family: Raleway;
+  cursor: row-resize;
+  overflow: hidden;
+  color: #FFFFFF;
+}
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  position: fixed;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+}
+::selection {
+  background-color: #FFC694;
+  border-radius: 25px;
+  color: #FFFFFF;
+}
