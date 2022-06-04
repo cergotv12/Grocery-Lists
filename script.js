@@ -7,6 +7,7 @@ document.getElementById("del").onclick  = function() {
     deletemode = false
     document.getElementById('del').innerHTML = 'Click Here to Enter Delete Mode'
   }
+  document.getElementById('del').classList.toggle('on')
 }
 document.getElementById("add").onclick  = function() {
   var node = document.createElement("Li");
@@ -36,4 +37,7 @@ document.getElementById("section").onclick  = function() {
 $( function drag() {
   $( "#list" ).sortable();
   $( "#list" ).disableSelection();
+} );
+$( function disablesel() {
+	$( "#del" ).disableSelection();
 } );

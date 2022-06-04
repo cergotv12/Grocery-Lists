@@ -80,6 +80,10 @@ p#del {
   background: #AC726E;
   cursor: pointer;
 }
+p#del.on {
+  background: #77AC6E;
+  cursor: pointer;
+}
 footer {
   bottom: 0;
   left: 0;
@@ -93,4 +97,8 @@ footer {
   background-color: #585858;
   border-radius: 25px;
   color: #FFFFFF;
+}
+h1 {
+  background: #CCC1B2;
+  padding: 10px;
 }
