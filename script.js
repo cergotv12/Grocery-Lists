@@ -1,4 +1,12 @@
 var deletemode = false
+window.onload = function() {
+  if (localStorage.getItem('list')) {
+    document.getElementById('list').innerHTML = localStorage.getItem('list')
+    console.log("Fetched List Items")
+  } else {
+    console.log("Failed to Fetch List Items")
+  }
+}
 document.getElementById("del").onclick  = function() {
   if (deletemode == false) {
     deletemode = true
@@ -13,7 +21,7 @@ document.getElementById("add").onclick  = function() {
   var node = document.createElement("Li");
   var text =  document.getElementById("user_input").value;
   var text2 =document.getElementById("quantity").value;
-  var alltext = text + " " + text2;
+  var alltext = text2 + " " + text;
   var textnode=document.createTextNode(alltext);
   node.appendChild(textnode);
   document.getElementById("list").appendChild(node);
@@ -41,3 +49,8 @@ $( function drag() {
 $( function disablesel() {
 	$( "#del" ).disableSelection();
 } );
+window.onbeforeunload = function(){
+  console.log("Saving Items...")
+  window.localStorage.setItem('list',document.getElementById('list').innerHTML);
+  console.log("Items Saved.")
+}

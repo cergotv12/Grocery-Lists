@@ -1,31 +1,35 @@
 <!--&copy; P1@raspberrypi-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<title>Grocery Lists | Home</title>
-<link rel="stylesheet" href="style.css">
-<body>
-<link rel="icon" href="favicon.ico">
-<h1>Grocery Lists</h1>  
-<p style="cursor: text; background-color: #DCD6CD;"></p>
-<p style="cursor: text; background-color: #DCD6CD;"></p>
-<a style='cursor:text; background-color: #DCD6CD; color: #545454'>"Section" creates a new section from your text in the text box. "Add" creates a new item in your list. You can have infinite items in a list. Click an item to check it. Type a number or use the &#x2193;/&#x2191; buttons to change quantity. Click and drag an item or section to sort. When in delete mode, click an item to delete it.</a>
-<p style="cursor: text; background-color: #DCD6CD;"></p>
-<p style="cursor: text; background-color: #DCD6CD;"></p>
-<a>Click an item to check it.</a>
-<p style="cursor: text; background-color: #DCD6CD;"></p>
-<p style="cursor: text; background-color: #DCD6CD;"></p>
-<p id="del">Click Here to Enter Delete Mode</p>
-<p style="cursor: text; background-color: #DCD6CD;"></p>
-<p style="cursor: text; background-color: #DCD6CD;"></p>
-<input id="user_input">
-<input id="quantity" type="number">
-<input type="button" id="add" value="Add">
-<input type="button" id="section" value="Section">
-<form>
-<ul id='list'>
-<p>All</p>
-</ul>
-</form>
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="script.js"></script>
-</body>
+<html>
+  <head>
+    <title>Grocery Lists | Your List</title>
+    <link rel="icon" href="favicon.ico" type="image/ico">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Grocery Lists</h1>  
+    <p style="cursor: text; background-color: #DCD6CD;"></p>
+    <p style="cursor: text; background-color: #DCD6CD;"></p>
+    <a style='cursor:text; background-color: #DCD6CD; color: #545454'>"Section" creates a new section from your text in the text box. "Add" creates a new item in your list. You can have infinite items in a list. Click an item to check it. Type a number or use the &#x2193;/&#x2191; buttons to change quantity. Click and drag an item or section to sort. When in delete mode, click an item to delete it.</a>
+    <p style="cursor: text; background-color: #DCD6CD;"></p>
+    <p style="cursor: text; background-color: #DCD6CD;"></p>
+    <a>Click an item to check it.</a>
+    <p style="cursor: text; background-color: #DCD6CD;"></p>
+    <p style="cursor: text; background-color: #DCD6CD;"></p>
+    <p id="del">Click Here to Enter Delete Mode</p>
+    <p style="cursor: text; background-color: #DCD6CD;"></p>
+    <p style="cursor: text; background-color: #DCD6CD;"></p>
+    <input id="user_input" placeholder="Item">
+    <input id="quantity" type="number" placeholder="Amount">
+    <input type="button" id="add" value="Add">
+    <input type="button" id="section" value="Section">
+    <form>
+    <ul id='list'>
+    <p>All</p>
+    </ul>
+    </form>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
