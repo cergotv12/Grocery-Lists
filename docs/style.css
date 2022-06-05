@@ -44,9 +44,10 @@ select {
 }
 body {
   font-family: Raleway;
-  background-color: #DCD6CD;
+  background-color: #E5E1DA;
   color: #606060;
   cursor: url('cursor.cur');
+  user-select: none;
 }
 li {
   list-style-type: none;
@@ -99,6 +100,42 @@ footer {
   color: #FFFFFF;
 }
 h1 {
-  background: #CCC1B2;
+  background: #DCD6CD;
   padding: 10px;
+}
+button {
+  border: none;
+  border-radius: 0px;
+  border-bottom: 2px solid #606060;
+  padding: 5px;
+  background: #DCD6CD;
+}
+input {
+  border: none;
+  border-radius: 0px;
+  border-bottom: 2px solid #606060;
+  padding: 5px;
+  background: #DCD6CD;
+  color: #606060;
+}
+input:focus {
+  outline:none !important;
+}
+button:focus {
+  outline:none !important;
+}
+p.normal {
+  cursor: default;
+  background-color: #E5E1DA;
+}
+::placeholder {
+  color: #606060;
+}
+
+:-ms-input-placeholder {
+  color: #606060;
+}
+
+::-ms-input-placeholder {
+  color: #606060;
 }
