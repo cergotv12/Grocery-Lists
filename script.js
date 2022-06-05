@@ -49,6 +49,10 @@ $( function drag() {
 $( function disablesel() {
 	$( "#del" ).disableSelection();
 } );
+$(function() {
+  $( "#list" ).sortable();
+  $( "#list" ).disableSelection();
+});
 window.onbeforeunload = function(){
   console.log("Saving Items...")
   window.localStorage.setItem('list',document.getElementById('list').innerHTML);
