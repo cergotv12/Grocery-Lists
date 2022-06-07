@@ -49,19 +49,18 @@ $( function drag() {
 $( function disablesel() {
 	$( "#del" ).disableSelection();
 } );
-$(document).ready(function(e) {
-    $('li').removeClass('ui-corner-bottom');
-    $('ul')
-        .addClass('ui-corner-top')
-        .removeClass('ui-corner-all')
-        .sortable({
-            'containment': 'parent',
-            'opacity': 0.6,
-            update: function(event, ui) {
-                alert("dropped");
-            }
-        });
-});
+document.getElementById("share").onclick = function() {
+	const shareData = {
+		title: 'Grocery Lists',
+		text: 'Free interactive grocery list website',
+		url: 'https://desvasicek.github.io/Grocery-Lists/grocerylists.html'
+	}
+	try {
+      await navigator.share(shareData)
+      console.log('Shared!')
+    } catch(err) {
+      console.log('Error: ' + err)
+    }
 window.onbeforeunload = function(){
   console.log("Saving Items...")
   window.localStorage.setItem('list',document.getElementById('list').innerHTML);

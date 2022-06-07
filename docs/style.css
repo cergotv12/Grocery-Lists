@@ -109,6 +109,7 @@ button {
   border-bottom: 2px solid #606060;
   padding: 5px;
   background: #DCD6CD;
+  width: 5%;
 }
 input {
   border: none;
@@ -117,6 +118,7 @@ input {
   padding: 5px;
   background: #DCD6CD;
   color: #606060;
+  width: 35%;
 }
 input:focus {
   outline:none !important;
