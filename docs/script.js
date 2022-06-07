@@ -61,6 +61,7 @@ document.getElementById("share").onclick = function() {
     } catch(err) {
       console.log('Error: ' + err)
     }
+}
 window.onbeforeunload = function(){
   console.log("Saving Items...")
   window.localStorage.setItem('list',document.getElementById('list').innerHTML);
