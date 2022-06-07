@@ -56,7 +56,7 @@ document.getElementById("share").onclick = function() {
 		url: 'https://desvasicek.github.io/Grocery-Lists/grocerylists.html'
 	}
 	try {
-      await navigator.share(shareData)
+      navigator.share(shareData)
       console.log('Shared!')
     } catch(err) {
       console.log('Error: ' + err)
