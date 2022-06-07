@@ -109,7 +109,7 @@ button {
   border-bottom: 2px solid #606060;
   padding: 5px;
   background: #DCD6CD;
-  width: 5%;
+  width: 24.5%;
 }
 input {
   border: none;
@@ -118,7 +118,7 @@ input {
   padding: 5px;
   background: #DCD6CD;
   color: #606060;
-  width: 35%;
+  width: 24.5%;
 }
 input:focus {
   outline:none !important;
@@ -140,4 +140,22 @@ p.normal {
 
 ::-ms-input-placeholder {
   color: #606060;
+}
+.share {
+    font-weight: bold;
+    position: relative;
+}
+.share:before {
+    content: ".";
+    font-size: 2.2em;
+    position: absolute;
+    bottom: -2.5px;
+    left: -4px;
+}
+.share:after {
+    content: ":";
+    font-size: 2em;
+    position: absolute;
+    bottom: -6px;
+    right: -7px;
 }
