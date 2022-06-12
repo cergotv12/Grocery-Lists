@@ -43,10 +43,8 @@ select {
   width: 200px;
 }
 body {
-  font-family: Raleway;
   background-color: #E5E1DA;
   color: #606060;
-  cursor: url('cursor.cur');
   user-select: none;
 }
 li {
@@ -72,7 +70,6 @@ p {
   margin: 1px;
   padding: 0.5em 0.5em 0.5em 2em;
   background: #A2A2A2;
-  font-family: Raleway;
   cursor: row-resize;
   overflow: hidden;
   color: #FFFFFF;
@@ -158,4 +155,8 @@ p.normal {
     position: absolute;
     bottom: -6px;
     right: -7px;
+}
+#sharetxt {
+  font-weight: bold;
+  cursor: pointer;
 }
