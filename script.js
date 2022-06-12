@@ -53,7 +53,7 @@ document.getElementById("sharetxt").onclick = function() {
 	const shareData = {
 		title: 'Grocery Lists',
 		text: 'Free interactive grocery list website',
-		url: 'https://desvasicek.github.io/Grocery-Lists/grocerylists.html'
+		url: 'https://desvasicek.github.io/Grocery-Lists/index.html'
 	}
 	try {
       navigator.share(shareData)
