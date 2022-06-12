@@ -49,7 +49,7 @@ $( function drag() {
 $( function disablesel() {
 	$( "#del" ).disableSelection();
 } );
-document.getElementById("share").onclick = function() {
+document.getElementById("sharetxt").onclick = function() {
 	const shareData = {
 		title: 'Grocery Lists',
 		text: 'Free interactive grocery list website',
