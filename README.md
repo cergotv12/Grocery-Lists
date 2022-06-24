@@ -43,3 +43,5 @@ If you *see something wrong* or would *like to suggest something* please contact
 If you would like to be a collaborator, plz contact me (Please note mainly I will only invite you if I know you personally)
 ## Dontation
 **Do not** donate to me. Donate to like, [Ukraine or something](https://saveukraine.org/donate).
+## Me ([@desvasicek](https://github.com/desvasicek))
+I am a beginner programmer on a raspberry pi who likes to test my skills. I also want to create something to be proud of 🤯.
