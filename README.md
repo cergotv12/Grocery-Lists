@@ -4,7 +4,7 @@
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=desvasicek&repo=Grocery-Lists&theme=dark)
 
-Grocery Lists is a small project by me ([@desvasicek](https://github.com/desvasicek)
+Grocery Lists is a small project by me ([@desvasicek](https://github.com/desvasicek))
 I created this project to test my skills with javascript, css and html. I left it for a long time until I finally came back to it.
 
 ## Details
