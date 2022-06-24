@@ -32,9 +32,9 @@ I created this project to test my skills with javascript, css and html. I left i
 - When in delete mode click an item to delete it.
 
 ## Coming Soon
-- Better styling
-- Mobile website (maybe? :shrug:)
-- Updated javascript (hopefully)
+- Better styling (Working on it)
+- Mobile website (assigned to [@desvasicek](https://github.com/desvasicek))
+- Updated javascript (assigned to [@desvasicek](https://github.com/desvasicek))
 ## Help
 If you *see something wrong* or would *like to suggest something* please contact me on github.
 ## License
