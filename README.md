@@ -2,7 +2,7 @@
 [![license](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 [![Mobile Friendly Rating](https://img.shields.io/badge/mobile--friendly%20rating-mobile%20friendly-sucess)](https://search.google.com/test/mobile-friendly/result?id=IQSmrDs6NqF7zi63i5pGPg)
 
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=desvasicek&repo=Grocery-Lists&theme=dark)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=desvasicek&repo=Grocery-Lists&theme=dark)](https://github.com/desvasicek/Grocery-Lists)
 
 Grocery Lists is a small project by me ([@desvasicek](https://github.com/desvasicek))
 I created this project to test my skills with javascript, css and html. I left it for a long time until I finally came back to it.
