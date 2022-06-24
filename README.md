@@ -1,3 +1,9 @@
+# If you are here just to see the website...
+Please go to https://desvasicek.github.io/Grocery-Lists/index.html
+## What this is
+This is an archive of probably my best programs, put together to make awesomeness (A.K.A. Grocery Lists).
+
+I highly encourage coding, as it is a challenge, but also very fun.
 # Grocery Lists
 [![license](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 [![Mobile Friendly Rating](https://img.shields.io/badge/mobile--friendly%20rating-mobile%20friendly-sucess)](https://search.google.com/test/mobile-friendly/result?id=IQSmrDs6NqF7zi63i5pGPg)
