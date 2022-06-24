@@ -3,6 +3,10 @@ Grocery Lists is a small project by me (@desvasicek)
 I created this project to test my skills with javascript, css and html. I left it for a long time until I finally came back to it.
 
 ## Details
+![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
+
+![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
+![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)
 
 - "Section" creates a new section from your text in the text box
 - "Add" creates a new item in your list
