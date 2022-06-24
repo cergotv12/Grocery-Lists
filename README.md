@@ -51,3 +51,5 @@ If you would like to be a collaborator, plz contact me (Please note mainly I wil
 **Do not** donate to me. Donate to like, [Ukraine or something](https://saveukraine.org/donate).
 ## Me ([@desvasicek](https://github.com/desvasicek))
 I am a beginner programmer on a raspberry pi who likes to test my skills. I also want to create something to be proud of 🤯.
+# Discuss
+Please go to https://github.com/desvasicek/Grocery-Lists/discussions and discuss with me and other people.
