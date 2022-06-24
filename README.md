@@ -2,6 +2,8 @@
 [![license](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 [![Mobile Friendly Rating](https://img.shields.io/badge/mobile--friendly%20rating-mobile%20friendly-sucess)](https://search.google.com/test/mobile-friendly/result?id=IQSmrDs6NqF7zi63i5pGPg)
 
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=desvasicek&repo=Grocery-Lists&theme=dracula)
+
 Grocery Lists is a small project by me (@desvasicek)
 I created this project to test my skills with javascript, css and html. I left it for a long time until I finally came back to it.
 
@@ -20,6 +22,7 @@ I created this project to test my skills with javascript, css and html. I left i
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
+### How To Use
 - "Section" creates a new section from your text in the text box
 - "Add" creates a new item in your list
 - You can have infinite items in a list
