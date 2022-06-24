@@ -39,3 +39,5 @@ I created this project to test my skills with javascript, css and html. I left i
 If you *see something wrong* or would *like to suggest something* please contact me on github.
 ## License
 **NO ONE** EVER READS [THE LICENSE](https://github.com/desvasicek/Grocery-Lists/blob/main/LICENSE.md)!!! **Please, just read it, it's not that hard!** I have bolded the important parts that may be hard to understand.
+## Collab
+If you would like to be a collaborator, plz contact me (Please note mainly I will only invite you if I know you personally)
