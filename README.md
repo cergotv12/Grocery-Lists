@@ -7,6 +7,11 @@ I highly encourage coding, as it is a challenge, but also very fun.
 # Grocery Lists
 [![license](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 [![Mobile Friendly Rating](https://img.shields.io/badge/mobile--friendly%20rating-mobile%20friendly-sucess)](https://search.google.com/test/mobile-friendly/result?id=IQSmrDs6NqF7zi63i5pGPg)
+![Last Commit](https://img.shields.io/github/last-commit/desvasicek/Grocery-Lists)
+![Collab](https://img.shields.io/github/contributors/desvasicek/Grocery-Lists)
+![Size](https://img.shields.io/github/languages/code-size/desvasicek/Grocery-Lists)
+![Langs](https://img.shields.io/github/languages/count/desvasicek/Grocery-Lists)
+
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=desvasicek&repo=Grocery-Lists&theme=dark)](https://github.com/desvasicek/Grocery-Lists)
 
